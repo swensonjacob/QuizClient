@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Coolvetica';
+    src: url(coolveticarg.ttf);
+}
+
+
+.button {
+    -fx-font-family: "Coolvetica";
+    -fx-font-size: 16;
+    -fx-background-color: white;
+    -fx-text-fill: #2294ff;
+    -fx-background-radius: 0;
+    -fx-border-color: white;
+    -fx-border-width: 5;
+}
+
+.label {
+    -fx-font-family: "Coolvetica";
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+
+}
