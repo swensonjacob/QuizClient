@@ -51,7 +51,7 @@ public class QuestionGetter implements Runnable{
                 buttons.get(1).setText(question.getAnswerTwo());
                 buttons.get(2).setText(question.getAnswerThree());
                 buttons.get(3).setText(question.getAnswerCorrect());
-
+                Controller.setCurrentQuestion(question);
             }
 
 

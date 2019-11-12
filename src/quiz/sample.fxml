@@ -32,10 +32,10 @@
     <bottom>
         <GridPane alignment="CENTER" hgap="20" vgap="20" >
             <padding><Insets bottom="30" left="10" right="10" top="20" /></padding>
-            <Button fx:id="buttonOne" text="Answer1" GridPane.rowIndex="0" GridPane.columnIndex="0" prefHeight="50" prefWidth="150"/>
-            <Button fx:id="buttonTwo" text="Answer1" GridPane.rowIndex="0" GridPane.columnIndex="1" prefHeight="50" prefWidth="150"/>
-            <Button fx:id="buttonThree" text="Answer1" GridPane.rowIndex="1" GridPane.columnIndex="0" prefHeight="50" prefWidth="150"/>
-            <Button fx:id="buttonFour" text="Answer1" GridPane.rowIndex="1" GridPane.columnIndex="1" prefHeight="50" prefWidth="150"/>
+            <Button onAction="#onButtonClicked" fx:id="buttonOne"  text="Answer" GridPane.rowIndex="0" GridPane.columnIndex="0" prefHeight="50" prefWidth="150"/>
+            <Button onAction="#onButtonClicked" fx:id="buttonTwo" text="Answer" GridPane.rowIndex="0" GridPane.columnIndex="1" prefHeight="50" prefWidth="150"/>
+            <Button onAction="#onButtonClicked" fx:id="buttonThree" text="Answer" GridPane.rowIndex="1" GridPane.columnIndex="0" prefHeight="50" prefWidth="150"/>
+            <Button onAction="#onButtonClicked" fx:id="buttonFour" text="Answer" GridPane.rowIndex="1" GridPane.columnIndex="1" prefHeight="50" prefWidth="150"/>
         </GridPane>
     </bottom>
 </BorderPane>
